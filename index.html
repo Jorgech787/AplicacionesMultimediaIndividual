@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Individual Multimedia</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #219150;
+        }
+
+        .btn-doc {
+            background: #2980b9;
+        }
+
+        .btn-doc:hover {
+            background: #1f618d;
+        }
+
+        .img-container {
+            margin-top: 15px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        img {
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-project">
+        <h1>Desarrollo de Aplicaciones Multimedia</h1>
+        <p><strong>Estudiante:</strong> Chavez Condori Jorge Abel</p>
+        <p><strong>Docente:</strong> Ph.D. Moises Martin Silva Choque</p>
+        <p><strong>Fecha:</strong> 15 de Junio de 2026</p>
+    </div>
+
+    <div class="card">
+        <h2>📄 Guía de Instalación y Ejecución</h2>
+        <p>Consulte las instrucciones detalladas paso a paso para ejecutar los proyectos localmente en su máquina.</p>
+        <a href="README.md" class="btn btn-doc" download>📥 Descargar Guía de Instalación (README.md)</a>
+    </div>
+
+    <div class="card">
+        <h2>Clasificación de Texturas A</h2>
+        <p>Aplicación desarrollada en C# para la identificación y segmentación dinámica de texturas (césped, asfalto,
+            tierra, cemento).</p>
+        <a href="Practica_Individual_IncisoA.zip" class="btn">📥 Descargar Proyecto A (.ZIP)</a>
+
+        <div class="img-container">
+            <img src="Capturas/IMG_ejercicioA_1.png" width="500" alt="Clasificador de Caminos">
+            <img src="Capturas/IMG_ejercicioA_2.png" width="500" alt="Segmentación de Textura Carretera">
+        </div>
+        <div>
+            <img src="Capturas/bd1.png" width="200" alt="Base de datos 1p">
+            <img src="Capturas/bd2.png" width="200" alt="Base de datos 2p">
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Filtro de suavizado B</h2>
+        <p>Filtro promedio espacial con matriz de 3 X 3 programado en C# para la reducción de ruido en imágenes.</p>
+        <a href="Practica_Individual_IncisoB.zip" class="btn">📥 Descargar Proyecto B (.ZIP)</a>
+
+        <div class="img-container">
+            <img src="Capturas/IMG_ejercicioB_1.png" width="500" alt="Filtro Hoja">
+            <img src="Capturas/IMG_ejercicioB_2.png" width="500" alt="Filtro Puente Ruido">
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Vaca Lola Unity C</h2>
+        <p>Animación interactiva y control de entornos tridimensionales desarrollada en el motor gráfico Unity.</p>
+        <a href="Practica_IncisoC.zip" class="btn">📥 Descargar Proyecto Unity C (.ZIP)</a>
+        <a href="Practica_Individual_IncisoC" class="btn">📥 Click para Visualizar La Animacion sin Descargarlo</a>
+        <div class="img-container">
+            <img src="Capturas/IMG_ejercicioC_1.png" width="500" alt="Editor de Unity">
+            <img src="Capturas/IMG_ejercicioC_2.png" width="500" alt="Escena de Animación">
+        </div>
+    </div>
+
+</body>
+
+</html>
