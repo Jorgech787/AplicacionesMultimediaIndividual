@@ -38,3 +38,9 @@ La aplicación de clasificación requiere los patrones RGB guardados en el servi
 2. Abra **Unity Hub**, seleccione **Add project from disk** y busque el directorio descompreso.
 3. Abra el proyecto con la versión instalada de su Editor Unity.
 4. En el panel *Project*, ubique la carpeta `Scenes`, haga doble clic sobre la escena de la animación y presione el botón **Play (▶️)** en la parte superior central para reproducir la sincronización multimedia de audio y movimiento.
+
+IMPORTANTE al momento de descargar el archivo `Practica_Individual_IncisoC.zip` dirigete a la carpeta build ahi habra un archivo .ZIP debes descomprimirlo en ese mismo lugar deben haber 4 archivos 
+ProyectoIndividualMultimedia.data
+ProyectoIndividualMultimedia.framework
+ProyectoIndividualMultimedia.loader
+ProyectoIndividualMultimedia.wasm(Archivo comprimido por que pesa mucho y no deja subir a github)
