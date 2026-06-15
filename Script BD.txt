@@ -1,0 +1,63 @@
+--Creamos la base de datos con el nombre texturaPracticaA para el ejercicio A
+
+
+-- 1. Creación de la tabla
+CREATE TABLE [dbo].[MuestrasTextura](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[categoria] [varchar](30) NULL,
+	[r] [int] NULL,
+	[g] [int] NULL,
+	[b] [int] NULL
+) ON [PRIMARY]
+GO
+
+-- 2. Permitir la inserción de IDs manuales
+SET IDENTITY_INSERT [dbo].[MuestrasTextura] ON
+GO
+
+-- 3. Inserción de datos
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (1, N'cesped', 128, 134, 48);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (2, N'cesped', 128, 150, 85);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (3, N'cesped', 144, 138, 50);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (4, N'cesped', 50, 65, 42);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (5, N'cesped', 81, 107, 44);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (6, N'cesped', 76, 86, 96);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (7, N'cesped', 97, 144, 152);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (8, N'asfalto', 84, 83, 97);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (9, N'asfalto', 85, 91, 104);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (10, N'asfalto', 78, 79, 92);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (11, N'asfalto', 154, 145, 132);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (12, N'asfalto', 155, 147, 139);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (13, N'asfalto', 124, 121, 135);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (14, N'asfalto', 83, 85, 98);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (15, N'asfalto', 45, 45, 60);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (16, N'tierra', 132, 95, 70);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (17, N'tierra', 158, 122, 100);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (18, N'tierra', 121, 92, 74);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (19, N'tierra', 38, 34, 40);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (20, N'tierra', 51, 39, 47);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (21, N'tierra', 59, 52, 50);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (22, N'tierra', 79, 57, 54);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (23, N'tierra', 170, 117, 82);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (24, N'tierra', 152, 93, 61);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (25, N'tierra', 162, 98, 56);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (26, N'tierra', 54, 46, 40);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (27, N'tierra', 123, 63, 35);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (28, N'tierra', 101, 76, 64);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (29, N'cemento', 177, 178, 172);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (30, N'cemento', 199, 202, 195);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (31, N'cemento', 93, 96, 89);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (32, N'cemento', 167, 169, 164);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (33, N'cemento', 112, 115, 108);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (34, N'cemento', 87, 90, 83);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (35, N'cemento', 106, 109, 102);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (36, N'cemento', 108, 108, 116);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (37, N'cemento', 164, 164, 172);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (38, N'cemento', 100, 100, 108);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (39, N'cemento', 92, 92, 100);
+INSERT [dbo].[MuestrasTextura] ([id], [categoria], [r], [g], [b]) VALUES (40, N'cemento', 130, 131, 136);
+GO
+
+-- 4. Apagar la inserción de IDs manuales
+SET IDENTITY_INSERT [dbo].[MuestrasTextura] OFF
+GO
